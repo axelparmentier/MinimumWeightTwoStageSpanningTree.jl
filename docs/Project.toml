@@ -1,0 +1,3 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+MinimumWeightTwoStageSpanningTree = "1ff01a17-0cb0-4dfc-8153-14faaa0a7280"

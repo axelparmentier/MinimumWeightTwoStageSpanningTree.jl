@@ -1,0 +1,13 @@
+name = "MinimumWeightTwoStageSpanningTree"
+uuid = "1ff01a17-0cb0-4dfc-8153-14faaa0a7280"
+authors = ["Léo Baty"]
+version = "0.1.0"
+
+[compat]
+julia = "1.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
