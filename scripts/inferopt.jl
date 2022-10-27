@@ -11,6 +11,7 @@ using UnicodePlots
 
 include("utils.jl")
 
+# Replace 1:12 with nothing if you want to use the advanced feature set
 (; large_train_data, large_val_data, large_test_data) = build_or_load_datasets(;
     slice=1:12, reduce=true
 );
