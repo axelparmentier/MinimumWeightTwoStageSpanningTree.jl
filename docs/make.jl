@@ -1,7 +1,12 @@
 using MinimumWeightTwoStageSpanningTree
 using Documenter
 
-DocMeta.setdocmeta!(MinimumWeightTwoStageSpanningTree, :DocTestSetup, :(using MinimumWeightTwoStageSpanningTree); recursive=true)
+DocMeta.setdocmeta!(
+    MinimumWeightTwoStageSpanningTree,
+    :DocTestSetup,
+    :(using MinimumWeightTwoStageSpanningTree);
+    recursive=true,
+)
 
 makedocs(;
     modules=[MinimumWeightTwoStageSpanningTree],
@@ -16,10 +21,14 @@ makedocs(;
     ),
     pages=[
         "Home" => "index.md",
+        "Problem statement" => "problem.md",
+        "Optimization algorithms" => "optimization.md",
+        "inferopt.md",
+        "paper.md",
+        "API" => "api.md",
     ],
 )
 
 deploydocs(;
-    repo="github.com/BatyLeo/MinimumWeightTwoStageSpanningTree.jl",
-    devbranch="main",
+    repo="github.com/BatyLeo/MinimumWeightTwoStageSpanningTree.jl", devbranch="main"
 )

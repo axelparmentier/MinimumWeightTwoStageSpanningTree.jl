@@ -1,0 +1,12 @@
+[deps]
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+GraphNeuralNetworks = "cffab07f-9bc2-4db1-8861-388f63bf7694"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+InferOpt = "4846b161-c94e-4150-8dac-c7ae193c601f"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+MinimumWeightTwoStageSpanningTree = "1ff01a17-0cb0-4dfc-8153-14faaa0a7280"
+Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
+OptimizationNLopt = "4e6fcdb7-1186-4e1f-a706-475e75c168bb"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
