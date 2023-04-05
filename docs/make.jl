@@ -30,5 +30,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/BatyLeo/MinimumWeightTwoStageSpanningTree.jl", devbranch="main"
+    repo="github.com/axelparmentier/MinimumWeightTwoStageSpanningTree.jl", devbranch="main"
 )
