@@ -124,7 +124,6 @@ function evaluate_first_stage_solution(inst::TwoStageSpanningTreeInstance, fores
     end
 
     values = zeros(inst.nb_scenarios)
-
     Threads.@threads for i in 1:(inst.nb_scenarios)
         m = minimum([inst.second_stage_weights[i][src(e), dst(e)] for e in edges(inst.g)])
         m = min(0, m - 1)
@@ -142,10 +141,9 @@ function evaluate_first_stage_solution(inst::TwoStageSpanningTreeInstance, fores
                 sum(inst.second_stage_weights[i][src(e), dst(e)] for e in forest_i)
         end
         values[i] = value_i
-        @info "$i, $value_i"
     end
 
-    return sum(values)
+    return sum(values) + value
 end
 
 """
